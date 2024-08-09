@@ -36,8 +36,7 @@
 在 `appsettings.json` 中配置数据库连接字符串和 Redis 连接。
 
 ### 5. 运行应用程序
-在项目根目录，运行以下命令启动应用程序：
-
+启动应用程序
 
 ### 6. 访问 API 文档
 通过浏览器访问 `https://localhost:7092/index.html` 来查看 API 文档。
