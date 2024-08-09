@@ -1,4 +1,3 @@
-```markdown
 # 在线书店系统
 
 ## 概述
@@ -11,15 +10,15 @@
 - **数据库**：使用 MySQL 进行数据持久化存储。
 - **缓存机制**：实现缓存以增强性能。
 - **JWT 身份验证**：使用 JSON Web Token 进行安全身份验证。
-- **异常处理**：系统内的健壮错误处理。
-- **日志记录**：操作和错误日志记录系统。
-- **单元测试**：核心功能的全面单元测试。
+- **异常处理**：提供健壮的错误处理机制。
+- **日志记录**：记录操作和错误日志。
+- **单元测试**：为核心功能提供全面的单元测试。
 
 ## 环境要求
-- .NET 8 SDK
-- MySQL 服务器
-- Redis 服务器（用于缓存）
-- Visual Studio 2022 或任何支持 .NET 8 的 IDE
+- **.NET 8 SDK**
+- **MySQL 服务器**
+- **Redis 服务器**（用于缓存）
+- **开发工具**：Visual Studio 2022 或任何支持 .NET 8 的 IDE
 
 ## 本地开发环境搭建
 
@@ -27,10 +26,8 @@
 确保已安装 .NET 8 SDK，并配置好开发环境。
 
 ### 2. 配置 MySQL 数据库
-配置 MySQL 数据库，运行初始化脚本：
-```bash
-BookStore\InitDBScript\InitScript.sql
-```
+运行初始化脚本以配置 MySQL 数据库： BookStore\InitDBScript\InitScript.sql
+
 
 ### 3. 配置 Redis
 安装并运行 Redis。默认情况下，应用将使用本地的 Redis 实例 (`localhost:6379`)。
@@ -40,9 +37,7 @@ BookStore\InitDBScript\InitScript.sql
 
 ### 5. 运行应用程序
 在项目根目录，运行以下命令启动应用程序：
-```bash
-dotnet run
-```
 
+
+### 6. 访问 API 文档
 通过浏览器访问 `https://localhost:7092/index.html` 来查看 API 文档。
-```
