@@ -13,7 +13,7 @@
 - **异常处理**：提供健壮的错误处理机制。
 - **日志记录**：记录操作和错误日志。
 - **单元测试**：为核心功能提供全面的单元测试。
-
+- **支持AWS Lambda 扩展**：用户登录功能支持AWS Lamdba。
 
 ## 环境要求
 - **.NET 8 SDK**
@@ -41,3 +41,8 @@
 
 ### 6. 访问 API 文档
 通过浏览器访问 `https://localhost:7092/index.html` 来查看 API 文档。
+
+## 项目介绍
+	- **BookStore：/主 API 项目，用于处理 HTTP 请求和响应**
+	- **BookStore.Tests：单元测试项目，用于测试各个服务的功能，确保代码的正确性。**
+	- **BookStoreLambda：AWS Lamdba 扩展 **
