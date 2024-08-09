@@ -1,0 +1,6 @@
+# Ignore Visual Studio temporary files, build results, and
+# build directories.
+bin/
+obj/
+
+# Ignore any other folders or files that you don't want to include in your repository

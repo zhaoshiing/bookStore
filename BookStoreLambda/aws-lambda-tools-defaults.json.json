@@ -1,0 +1,12 @@
+{
+  "profile": "default",
+  "region": "us-west-2",
+  "configuration": "Release",
+  "framework": "net8.0",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "BookStoreLambda::BookStoreLambda.Function::FunctionHandler",
+  "function-name": "BookStoreLambda",
+  "package-type": "Zip"
+}
